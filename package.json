@@ -1,0 +1,11 @@
+{
+  "name": "customs-rss-monitor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "monitor": "node monitor.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.53.0"
+  }
+}

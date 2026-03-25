@@ -39,12 +39,19 @@ python3 update_feed.py --text-file latest.txt
 如果没变化：
 - 输出 `NO_CHANGE`
 
-## 以后可以升级的方向
+## 自动更新
 
-如果你后面想自动化，我可以再帮你接：
-- 浏览器自动读取页面可见标题 / 列表
-- 自动生成 signature
-- 自动更新 RSS
+仓库已接入 GitHub Actions：
+- 每小时第 15 分钟自动检查一次
+- 也支持手动触发 `workflow_dispatch`
+- 用 Playwright（Chromium）取页面签名
+- 有变化才更新 `feed.xml` 与 `state.json`
+
+工作流文件：
+- `.github/workflows/monitor.yml`
+
+核心脚本：
+- `monitor.mjs`
 
 ## 导入 Inoreader
 
