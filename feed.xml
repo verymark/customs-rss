@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>海关总署-法定主动公开内容 页面变化监控</title>
+    <link>http://www.customs.gov.cn/customs/302249/zfxxgk/fdzdgknr/302274/index.html</link>
+    <description>监控海关总署目标页面变化的自定义 RSS</description>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 25 Mar 2026 14:00:00 +0800</lastBuildDate>
+    <item>
+      <title>初始化：开始监控页面</title>
+      <link>http://www.customs.gov.cn/customs/302249/zfxxgk/fdzdgknr/302274/index.html</link>
+      <guid>customs-monitor-init</guid>
+      <pubDate>Tue, 25 Mar 2026 14:00:00 +0800</pubDate>
+      <description><![CDATA[已初始化该页面的监控 RSS。后续如页面正文发生变化，将追加新条目。]]></description>
+    </item>
+  </channel>
+</rss>
