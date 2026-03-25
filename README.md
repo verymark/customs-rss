@@ -42,7 +42,7 @@ python3 update_feed.py --text-file latest.txt
 ## 自动更新
 
 仓库已接入 GitHub Actions：
-- 每小时第 15 分钟自动检查一次
+- 每天上午 9:15（北京时间）自动检查一次
 - 也支持手动触发 `workflow_dispatch`
 - 用 Playwright（Chromium）取页面签名
 - 有变化才更新 `feed.xml` 与 `state.json`
